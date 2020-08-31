@@ -26,10 +26,10 @@ class Projects extends React.Component{
                         <div class="card">
                             <div class="container">
                                 <h3><b>Designs</b></h3>
-                                <a href="#Designs" target="_blank"><p>eZPicker</p></a>
-                                <a href="#Designs" target="_blank"><p>Reval Helper</p></a>
-                                <a href="#Designs" target="_blank"><p>Minnal</p></a>
-                                <a href="#Designs" target="_blank"><p>Rankey</p></a>
+                                <a href="#Designs" target="_self"><p>eZPicker</p></a>
+                                <a href="#Designs" target="_self"><p>Reval Helper</p></a>
+                                <a href="#Designs" target="_self"><p>Minnal</p></a>
+                                <a href="#Designs" target="_self"><p>Rankey</p></a>
                             </div>
                         </div>
                     </div>
