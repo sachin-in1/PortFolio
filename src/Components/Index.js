@@ -3,6 +3,7 @@ import About from "./About";
 import Things from "./Things";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Designs from "./Designs";
 
 class Index extends React.Component{
     constructor(props){
@@ -20,6 +21,7 @@ class Index extends React.Component{
             <Things progRess = {this.state.progress}></Things>
             <Skills progRess = {this.state.progress}></Skills>
             <Projects progRess = {this.state.progress}></Projects>
+            <Designs progRess = {this.state.progress}></Designs>
           </div>
         );
     }

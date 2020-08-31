@@ -20,7 +20,7 @@ class Things extends React.Component{
                             <button class="offset" >Did a Project in Python</button></a>
                         </span>
                         <span>
-                            <a href="#Projects" target="_self">
+                            <a href="#Designs" target="_self">
                             <button class="offset" >Made Some Designs</button></a>
                         </span>
                     </div>

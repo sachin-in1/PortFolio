@@ -26,6 +26,7 @@ class About extends React.Component{
                         <a href={this.state.links.mail[0]} target="_blank" rel="noopener noreferrer"><i class={this.state.links.mail[1]} ></i></a>
                     </div>
                     <Photo></Photo>
+                    {/* <img src=""/> */}
                     <div class="About">
         <h3 class="heading">About Me</h3><br/>
                         <h5>

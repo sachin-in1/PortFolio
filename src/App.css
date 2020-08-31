@@ -275,12 +275,12 @@ E9C46A
 .card{
   width: max-content;
   max-width: 200px;
-  /* float: left; */
+  float: left;
   color: #53ffd4;
   margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  display: inline-block;
+  /* display: inline-block; */
   position: relative;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -307,6 +307,32 @@ E9C46A
   color: white;
   text-decoration: none;
 }
+
+/* fifth */
+
+.Designs{
+  background-color: #225555;
+}
+.grid-container-5 {
+  display: grid;
+  grid-template-columns: 0.4fr 1.6fr 1.6fr 0.4fr;
+  grid-template-rows: 0fr 2.9fr 0.1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". . . ." ". designs designs ." ". . . .";
+}
+.design { 
+  grid-area: designs;
+}
+.design h3{
+  /* padding-bottom: 2.5%; */
+  margin-top: 80px;
+  font-size: 2rem;
+}
+
+.designitems img{
+width: 80vw;
+}
+/* fifth over */
 /*sidebar*/
 
 .links {
@@ -376,6 +402,22 @@ E9C46A
     width: max-content;
     max-width: 300px;
   }
+
+
+  .grid-container-5 {
+    grid-template-columns: 0.2fr 1.6fr 1.6fr 0.4fr;
+    grid-template-areas: ". . . ." ". designs designs ." ". . . .";
+  } 
+  .Designs{
+    /* height: 100vh; */
+  height: max-content;
+  }
+  .designs{
+    padding-left: 50px;
+  }
+  /* .designitems{
+    font-size: 20px;
+  } */
 } 
 
 .reading-progress-bar {
