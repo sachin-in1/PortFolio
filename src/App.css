@@ -322,6 +322,7 @@ E9C46A
 }
 .design { 
   grid-area: designs;
+  display: inline-block;
 }
 .design h3{
   /* padding-bottom: 2.5%; */
@@ -329,8 +330,10 @@ E9C46A
   font-size: 2rem;
 }
 
-.designitems img{
-width: 80vw;
+.designitems .disp{
+  margin: 10px;
+  width: 80vw;
+  height: auto;
 }
 /* fifth over */
 /*sidebar*/
@@ -415,6 +418,11 @@ width: 80vw;
   .designs{
     padding-left: 50px;
   }
+  .designitems .disp{
+    margin: 10px;
+    width: 480px;
+    height: auto;
+  }
   /* .designitems{
     font-size: 20px;
   } */
@@ -433,3 +441,6 @@ width: 80vw;
   height: 5px;
   left: 0;
  }
+
+ /*  */
+ 
